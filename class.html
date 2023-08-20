@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Upwardfacingcat</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg w-100 bg-white" id="top-navigation">
+    <div class="container-xxl">
+      <a class="navbar-brand" href="index.html">
+        <img src="image/Logo.svg" class="img-fluid" style="max-width: 200px" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto py-5 py-md-0 align-items-start align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="class.html">CLASS LIST</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">SIGN UP AS TEACHER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">CONTACT US</a>
+          </li>
+          <li class="nav-item ps-3">
+            <a class="nav-link p-0 round-circle bg-gray rounded-circle d-flex justify-content-center align-items-center"
+              aria-current="page" href="#"><img src="image/buy-icon.svg" class="img-fluid" alt="buy-icon"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="py-5  class-list-bg">
+    <div class="container-xxl">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="heading text-black">Class List</h2>
+        </div>
+        <div class="col-12 col-md-3">
+          <p class="text-dark">Filtered by</p>
+          <form action="" class="bg-white radius-10 p-4 shadow-class">
+            <div class="mb-4">
+              <label for="exampleFormControlInput1" class="form-label text-black">Choose Date</label>
+              <select class="form-select form-control rounded-0" aria-label="Default select example">
+                <option selected>Choose Date</option>
+                <option value="1">Today</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label for="customRange1" class="form-label text-black">Choose time</label>
+              <p class="text-light-label">09.00am - 09.00pm</p>
+              <input type="range" class="form-range" id="customRange1">
+            </div>
+            <div class="mb-4">
+              <label for="exampleFormControlInput1" class="form-label text-black">Choose Dance Style</label>
+              <select class="form-select form-control rounded-0" aria-label="Default select example">
+                <option selected>Choose dance style</option>
+                <option value="1">All</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label for="exampleFormControlInput1" class="form-label text-black">Choose Teacher / Tnstructor</label>
+              <select class="form-select form-control rounded-0" aria-label="Default select example">
+                <option selected>Choose teacher / instructor</option>
+                <option value="1">All</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label for="exampleFormControlInput1" class="form-label text-black">Choose Level</label>
+              <select class="form-select form-control rounded-0" aria-label="Default select example">
+                <option selected>Choose level</option>
+                <option value="1">All</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="col-12 col-md-9">
+          <div class="row mx-0">
+            <div class="col-12">
+              <p class="text-dark">Showing class for : November 23, 2020</p>
+              <div class="input-group border">
+                <input type="text" class="form-control border-0" placeholder="Search...">
+                <button class="btn btn-white" type="button">
+                  <i><img src="image/search.svg" class="img-fluid" alt="search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 mx-0">
+            <div class="col-12 mb-3">
+              <div class="card shadow-class border-0 radius-10">
+                <div class="card-body text-center text-md-start">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                      <img src="./image/classwork.png" class="img-fluid" alt="classimg">
+                    </div>
+                    <div class="col-12 col-md-6 ps-1 pt-3 pt-md-0">
+                      <h4>Online: Pilates Evolution by Lucy Hale</h4>
+                      <p class="text-light-label mb-2"><i><img src="image/calendar.svg" class="pe-2" alt="calender"></i>November
+                        23, 2020 | 01.00pm - 02.00pm (EDT)</p>
+                      <p class="text-light-label mb-0">Assigned teacher : Lucy Hale</p>
+                      <p class="text-light-label mb-0">Spots left: 0/20</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                      <div class="d-flex justify-content-center pt-3 pt-md-0">
+                        <span class="h4 text-black">US$15</span>
+                        <span class="h4 line px-2">|</span>
+                        <span class="h4 text-black">60min</span>
+                      </div>
+                      <a class="btn bg-pink text-white border-radius mt-3" href="#" role="button">Add Class to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mb-3 ">
+              <div class="card shadow-class border-0 radius-10">
+                <div class="card-body text-center text-md-start">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                      <img src="./image/classwork.png" class="img-fluid" alt="classimg">
+                    </div>
+                    <div class="col-12 col-md-6 ps-1 pt-3 pt-md-0">
+                      <h4>Online: Pilates Evolution by Lucy Hale</h4>
+                      <p class="text-light-label mb-2"><i><img src="image/calendar.svg" class="pe-2" alt="calendar"></i>November
+                        23, 2020 | 01.00pm - 02.00pm (EDT)</p>
+                      <p class="text-light-label mb-0">Assigned teacher : Lucy Hale</p>
+                      <p class="text-light-label mb-0">Spots left: 0/20</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                      <div class="d-flex justify-content-center pt-3 pt-md-0">
+                        <span class="h4 text-black">US$15</span>
+                        <span class="h4 line px-2">|</span>
+                        <span class="h4 text-black">60min</span>
+                      </div>
+                      <a class="btn bg-pink text-white border-radius mt-3" href="#" role="button">Add Class to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mb-3 ">
+              <div class="card shadow-class border-0 radius-10">
+                <div class="card-body text-center text-md-start">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                      <img src="./image/classwork.png" class="img-fluid" alt="classimg">
+                    </div>
+                    <div class="col-12 col-md-6 ps-1 pt-3 pt-md-0">
+                      <h4>Online: Pilates Evolution by Lucy Hale</h4>
+                      <p class="text-light-label mb-2"><i><img src="image/calendar.svg" class="pe-2" alt="calendar"></i>November
+                        23, 2020 | 01.00pm - 02.00pm (EDT)</p>
+                      <p class="text-light-label mb-0">Assigned teacher : Lucy Hale</p>
+                      <p class="text-light-label mb-0">Spots left: 0/20</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                      <div class="d-flex justify-content-center pt-3 pt-md-0">
+                        <span class="h4 text-black">US$15</span>
+                        <span class="h4 line px-2">|</span>
+                        <span class="h4 text-black">60min</span>
+                      </div>
+                      <a class="btn bg-pink text-white border-radius mt-3" href="#" role="button">Add Class to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mb-3 ">
+              <div class="card shadow-class border-0 radius-10">
+                <div class="card-body text-center text-md-start">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                      <img src="./image/classwork.png" class="img-fluid" alt="classimg">
+                    </div>
+                    <div class="col-12 col-md-6 ps-1 pt-3 pt-md-0">
+                      <h4>Online: Pilates Evolution by Lucy Hale</h4>
+                      <p class="text-light-label mb-2"><i><img src="image/calendar.svg" class="pe-2" alt="calendar"></i>November
+                        23, 2020 | 01.00pm - 02.00pm (EDT)</p>
+                      <p class="text-light-label mb-0">Assigned teacher : Lucy Hale</p>
+                      <p class="text-light-label mb-0">Spots left: 0/20</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                      <div class="d-flex justify-content-center pt-3 pt-md-0">
+                        <span class="h4 text-black">US$15</span>
+                        <span class="h4 line px-2">|</span>
+                        <span class="h4 text-black">60min</span>
+                      </div>
+                      <a class="btn bg-pink text-white border-radius mt-3" href="#" role="button">Add Class to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mb-3 ">
+              <div class="card shadow-class border-0 radius-10">
+                <div class="card-body text-center text-md-start">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                      <img src="./image/classwork.png" class="img-fluid" alt="classimg">
+                    </div>
+                    <div class="col-12 col-md-6 ps-1 pt-3 pt-md-0">
+                      <h4>Online: Pilates Evolution by Lucy Hale</h4>
+                      <p class="text-light-label mb-2"><i><img src="image/calendar.svg" class="pe-2" alt="calendar"></i>November
+                        23, 2020 | 01.00pm - 02.00pm (EDT)</p>
+                      <p class="text-light-label mb-0">Assigned teacher : Lucy Hale</p>
+                      <p class="text-light-label mb-0">Spots left: 0/20</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                      <div class="d-flex justify-content-center pt-3 pt-md-0">
+                        <span class="h4 text-black">US$15</span>
+                        <span class="h4 line px-2">|</span>
+                        <span class="h4 text-black">60min</span>
+                      </div>
+                      <a class="btn bg-pink text-white border-radius mt-3" href="#" role="button">Add Class to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mb-3 ">
+              <div class="card shadow-class border-0 radius-10">
+                <div class="card-body text-center text-md-start">
+                  <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                      <img src="./image/classwork.png" class="img-fluid" alt="classimg">
+                    </div>
+                    <div class="col-12 col-md-6 ps-1 pt-3 pt-md-0">
+                      <h4>Online: Pilates Evolution by Lucy Hale</h4>
+                      <p class="text-light-label mb-2"><i><img src="image/calendar.svg" class="pe-2" alt="calendar"></i>November
+                        23, 2020 | 01.00pm - 02.00pm (EDT)</p>
+                      <p class="text-light-label mb-0">Assigned teacher : Lucy Hale</p>
+                      <p class="text-light-label mb-0">Spots left: 0/20</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-center">
+                      <div class="d-flex justify-content-center pt-3 pt-md-0">
+                        <span class="h4 text-black">US$15</span>
+                        <span class="h4 line px-2">|</span>
+                        <span class="h4 text-black">60min</span>
+                      </div>
+                      <a class="btn bg-pink text-white border-radius mt-3" href="#" role="button">Add Class to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <a class="btn border-3 text-emperor border-radius mt-3" href="#" role="button">LOAD MORE CLASSES</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+
+  <footer class="bg-lilywhite py-2" id="footer">
+    <div class="container-xxl px-4 px-md-2">
+      <div class="row mx-0">
+        <div class="col-12 px-2 px-md-0">
+          <!-- <img src="./images/logo-f.svg" class="footer-logo" alt="logo"> -->
+        </div>
+      </div>
+      <div class="row mt-5 mx-0">
+        <div class="col-12 border-bottom-1 pb-4 px-0">
+          <div class="row justify-content-between mx-0">
+            <div class="col-12 col-md-3 pb-4 pb-md-0">
+              <img src=" image/Logo.svg" class="img-fluid" alt="logo">
+          </div>
+          <div class="col-12 col-md-3 pb-4 pb-md-0">
+            <h6 class="text-black">HEAD OFFICE</h6>
+            <p class="text-lightblack">
+              Proin sed condimentum st, vitae sodales #01-23455 Lorem ipsum,
+              Lipsum Dolores
+            </p>
+          </div>
+          <div class="col-12 col-md-3 pb-4 pb-md-0">
+            <ul class="list-unstyled">
+              <li class="pb-3">
+                <a class="text-decoration-none text-lightblack fs-6" href="#">ABOUT US</a>
+              </li>
+              <li class="pb-3">
+                <a class="text-decoration-none text-lightblack fs-6" href="#">HOW IT WORKS</a>
+              </li>
+              <li class="pb-3">
+                <a class="text-decoration-none text-lightblack fs-6" href="#">WHY UPWARDFACINGCAT</a>
+              </li>
+              <li class="">
+                <a class="text-decoration-none text-lightblack fs-6" href="#">PRICING</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-2">
+            <h6 class="text-black mb-3">CONTACT DETAILS</h6>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link round-circle rounded-circle bg-blue" href="#"><img src="image/fb.svg"
+                    class="img-fluid py-1 px-1" alt="facebook"></a>
+              </li>
+              <li class="nav-item ps-4">
+                <a class="nav-link round-circle rounded-circle bg-blue" href="#"><img src="image/Insta.svg"
+                    class="img-fluid py-2" alt="instagram"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center py-3 mx-0">
+        <div
+          class="col-12 col-md-6 col-lg-6 ps-md-0 ps-3 text-center text-md-start d-flex justify-content-between pb-4 pb-md-0">
+          <p class="text-black mb-0">
+            Copyright © Upwardfacingcat 2020. All right reserved.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-xl-6">
+          <div class="d-flex justify-content-center justify-content-md-end">
+            <a href="#" class="text-black mb-0 text-decoration-none">Terms & Condition</a>
+            <a href="#" class="text-black mb-0 ps-4 text-decoration-none">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- js -------->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

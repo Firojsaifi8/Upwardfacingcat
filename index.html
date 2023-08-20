@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Upwardfacingcat</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg position-fixed w-100 bg-white"
+      id="top-navigation"
+    >
+      <div class="container-xxl">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="image/Logo.svg"
+            class="img-fluid"
+            style="max-width: 200px"
+            alt="logo"
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto py-5 py-md-0 align-items-start align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="class.html">CLASS LIST</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >SIGN UP AS TEACHER</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">CONTACT US</a>
+            </li>
+            <li class="nav-item ps-3">
+              <a
+                class="nav-link p-0 round-circle bg-gray rounded-circle d-flex justify-content-center align-items-center"
+                aria-current="page"
+                href="#"
+                ><img src="image/buy-icon.svg" class="img-fluid" alt="buy-icon"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="signup-bg">
+      <div class="container-xxl">
+        <div class="row">
+           <div class="col-12 col-md-12 col-lg-7 col-xl-7 ms-auto px-5 px-lg-5">
+            <div class="signup-card shadow border-radius bg-white pb-5  overflow-hidden">
+              <!-- <div class="btn-group">
+                <a href="#" class="btn bg-Mercury-gray px-5">Sign Up</a>
+                <a href="signup.html" class="btn px-5">Login</a>
+              </div> -->
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item w-50" role="presentation">
+                  <button class="nav-link w-100 text-dark fs-4 active rounded-0 py-3" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Sign Up</button>
+                </li>
+                <li class="nav-item w-50" role="presentation">
+                  <button class="nav-link w-100 text-dark fs-4 rounded-0 py-3" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Login</button>
+                </li>
+                <li class="nav-item" role="presentation">
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                  <div class="px-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between social-login mt-4">
+                      <a
+                      href="mylist.html"
+                        class="btn bg-chambray text-white border-radius py-2 px-4 fs-6 mb-3 mb-md-0"
+                        type="button"
+                        ><span class="text-uppercase px-2"><i
+                            ><img src="image/fb-2.svg" class="pe-2" alt="facebook"></i
+                          >Log in with Facebook</span
+                        >
+                      </a>
+                      <a
+                      href="mylist.html"
+                        class="btn border-2 border-radius py-2 px-4 fs-6"
+                        type="button"
+                        ><span class="text-uppercase px-2"
+                          ><i
+                            ><img
+                              src="image/google.svg"
+                              class="pe-2"
+                              alt="google"></i
+                          >LOG IN WHIT GOOGLE</span
+                        >
+                      </a>
+                    </div>
+                    <p class="text-center mt-4">Or</p>
+                    <div>
+                      <form>
+                        <div class="mb-3">
+                          <label
+                            for="exampleInputEmail1"
+                            class="form-label text-tundora"
+                            >Email address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control border"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                          >
+                        </div>
+                        <div class="mb-3">
+                          <label
+                            for="exampleInputPassword1"
+                            class="form-label text-tundora"
+                            >Password</label
+                          >
+                          <input
+                            type="password"
+                            class="form-control border"
+                            id="exampleInputPassword1"
+                          >
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input
+                            type="checkbox"
+                            class="form-check-input border"
+                            id="exampleCheck1"
+                          >
+                          <label class="form-check-label" for="exampleCheck1"
+                            >Remember me</label
+                          >
+                        </div>
+                        <div
+                          class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+                        >
+                          <a
+                            type="submit"
+                            class="btn bg-pink text-white border-radius mt-3 px-5"
+                            href="mylist.html"
+                            role="button" aria-current="page"  
+                            >Log in</a
+                          >
+                          <p class="pt-3 ps-4 text-eastern">Forgot your password?</p>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                  <div class="py-4 px-5">
+                    <h2 class="pe-5 mb-3 font-48">Welcome to Upwardfacingcat!</h2>
+                    <p class="pt-6">
+                      Lorem ipsum dolor sit amet, consectetur adipis cing elit.
+                      Aenean pretium laoreet diam, sit amet efficitur ex ultrices
+                      at. Fusce facilisis fringilla maximus.
+                    </p>
+                    <a
+                      class="btn bg-pink text-white border-radius mt-3"
+                      href="#"
+                      role="button"
+                      id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"
+                      >Create an account</a
+                    >
+                    
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-lilywhite py-2" id="footer">
+      <div class="container-xxl px-4 px-md-2">
+        <div class="row">
+          <div class="col-12 px-2 px-md-0">
+            <!-- <img src="./images/logo-f.svg" class="footer-logo" alt="logo"> -->
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 border-bottom-1 pb-4 px-0">
+            <div class="row justify-content-between mx-0">
+              <div class="col-12 col-md-3 pb-4 pb-md-0"">
+              <img src="image/Logo.svg" class="img-fluid" alt="logo">
+            </div>
+            <div class="col-12 col-md-3 pb-4 pb-md-0">
+              <h6 class="text-black">HEAD OFFICE</h6>
+              <p class="text-lightblack">
+                Proin sed condimentum st, vitae sodales #01-23455 Lorem ipsum,
+                Lipsum Dolores
+              </p>
+            </div>
+            <div class="col-12 col-md-3 pb-4 pb-md-0">
+              <ul class="list-unstyled">
+                <li class="pb-3">
+                  <a class="text-decoration-none text-lightblack fs-6" href="#"
+                    >ABOUT US</a
+                  >
+                </li>
+                <li class="pb-3">
+                  <a class="text-decoration-none text-lightblack fs-6" href="#"
+                    >HOW IT WORKS</a
+                  >
+                </li>
+                <li class="pb-3">
+                  <a class="text-decoration-none text-lightblack fs-6" href="#"
+                    >WHY UPWARDFACINGCAT</a
+                  >
+                </li>
+                <li class="">
+                  <a class="text-decoration-none text-lightblack fs-6" href="#"
+                    >PRICING</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-2">
+              <h6 class="text-black mb-3">CONTACT DETAILS</h6>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link round-circle rounded-circle bg-blue"
+                    href="#"
+                    ><img
+                      src="image/fb.svg"
+                      class="img-fluid py-1 px-1"
+                      alt="facebook"
+                  ></a>
+                </li>
+                <li class="nav-item ps-4">
+                  <a
+                    class="nav-link round-circle rounded-circle bg-blue"
+                    href="#"
+                    ><img
+                      src="image/Insta.svg"
+                      class="img-fluid py-2"
+                      alt="instagram"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center py-3">
+        <div
+          class="col-12 col-md-6 col-lg-6 ps-md-0 ps-3 text-center text-md-start d-flex justify-content-between pb-4 pb-md-0"
+        >
+          <p class="text-black mb-0">
+            Copyright © Upwardfacingcat 2020. All right reserved.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-xl-6">
+          <div class="d-flex justify-content-center justify-content-md-end">
+            <a href="#" class="text-black mb-0 text-decoration-none">Terms & Condition</a>
+            <a href="#" class="text-black mb-0 ps-4 text-decoration-none">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+    <!-- js -------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
